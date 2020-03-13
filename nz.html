@@ -1,16 +1,33 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<body>
-			<h1>World Factbook</h1>
+
+<! DOCTYPE html >
+ <html >
+ <head >
+ < style type =" text / css ">
+	p { color : red }
+ </ style >
+ < title > SET08101 - Interacting with the DOM </ title > </ head > < body >
+ <p ><a href ="#" onClick =" colourChanger ();"> Click Me </ a > </p >
+ <h1 > OUTPUT : </ h1 >
+ <p id =" redPara ">I am RED </p >
+	<h1>World Factbook</h1>
 			<h3>Here is some usefull information on severeal countries click the links below for the country
 			you would like to view</h3>
 			<a href="factbook.html"> Home/ </a>
 			<a href="us.html"> /United kingdom/ </a>
 			<a href="uk.html"> /United States/ </a>
 			<a href="greece.html"> /Greece</a>
-			
-		</body>
-	</head>
+ < script >
+ var current =" red ";
 
-</html>
+ function colourChanger ()
+ {
+ if( current === " red ")
+ current = " blue ";
+ else
+ current = " red ";
+
+ document . getElementById (" redPara "). style . color = current ;
+ }
+</ script >
+</ body >
+</ html >
