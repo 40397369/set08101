@@ -1,1 +1,47 @@
-body {color: blue;}
+#back{
+	position:absolute;
+	width:25%;
+	height: 25%;
+	bottom: 0px;
+	right:0px;
+	border-image: url("right.png") 20% round
+}
+body {
+	
+	color: white;
+	font-family: impact;
+	text-align: center;
+	text-shadow: 3px 3px black
+}
+
+
+#banner {
+	background-image: URL("leather.png");
+	margin-top: 10%;
+	padding: 2.5%
+	}
+
+#title{
+	font-size: 50px;
+	font-weight: bold
+	}
+#start{
+	background-color: blue;
+	font-family: impact;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin-top: -10%;
+	border-radius: 12px
+}	
+#footer{
+	background-image: URL("leather.png");
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 5%
+	}
