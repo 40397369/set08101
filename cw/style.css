@@ -1,4 +1,4 @@
-/*#right{
+#right{
 	position:absolute;
 	width:25%;
 	height: 25%;
@@ -15,7 +15,7 @@
 	left:0px;
 	border-image: url("lefty.png") 20% round
 }
-*/
+
 body {
 	
 	color: white;
@@ -67,6 +67,19 @@ body {
 	margin-top: -10%;
 	border-radius: 12px
 }	
+
+#box{
+	height: 50%;
+	width: 50%;
+	background-color: #00b3b3;
+	position: absolute;
+	border-radius: 12px;
+	padding:15px;
+	top: 25%;
+	left: 25%
+}
+
+
 #footer{
 	
 	background-image: URL("leather.png");
