@@ -15,6 +15,96 @@
 	left:0px;
 	border-image: url("lefty.png") 20% round
 }
+#gold{
+	position:absolute;
+	width:25%;
+	height: 20%;
+	bottom: -25px;
+	left:38.5%;
+	border-image: url("gold.jpg") 20% round
+}
+#torch-left{
+	position:absolute;
+	width:5%;
+	height: 25%;
+	bottom: 25%;
+	left:20%;
+	border-image: url("torch.gif") 20% round
+}
+#torch-right{
+	position:absolute;
+	width:5%;
+	height: 25%;
+	bottom: 25%;
+	right:18%;
+	border-image: url("torchr.gif") 20% round
+}
+
+#but-left{
+	position:absolute;
+	width:10%;
+	height: 25%;
+	bottom: 25%;
+	right:0px;
+	border-image: url("but-left.gif") 20% round
+}
+
+#vines1{
+	position:absolute;
+	width:35%;
+	height: 45%;
+	right:-50px;
+	top:-150px;
+	border-image: url("v.gif") 20% round
+}
+#vines2{
+	position:absolute;
+	width:35%;
+	height: 45%;
+	right:80%;
+	top:-150px;
+	border-image: url("v.gif") 20% round
+}
+#vines3{
+	position:absolute;
+	width:35%;
+	height: 45%;
+	right:60%;
+	top:-150px;
+	border-image: url("v.gif") 20% round
+}
+#vines4{
+	position:absolute;
+	width:35%;
+	height: 45%;
+	right:10%;
+	top:-150px;
+	border-image: url("v.gif") 20% round
+}
+#vines5{
+	position:absolute;
+	width:35%;
+	height: 45%;
+	right:30%;
+	top:-150px;
+	border-image: url("v.gif") 20% round
+}
+#vines6{
+	position:absolute;
+	width:35%;
+	height: 45%;
+	right:50%;
+	top:-150px;
+	border-image: url("v.gif") 20% round
+}
+#vines7{
+	position:absolute;
+	width:35%;
+	height: 45%;
+	right:85%;
+	top:-150px;
+	border-image: url("v.gif") 20% round
+}
 
 body {
 	
@@ -38,6 +128,7 @@ body {
 	text-align: left;
 	font-size: 50px;
 	font-weight: bold;
+	color: #d4af37;
 	
 	
 }
@@ -54,6 +145,8 @@ body {
 	font-weight: bold;
 	color: 	#00b3b3
 	}
+	
+/*Buttons*/
 #start{
 	background-color: 	#00b3b3;
 	font-family: impact;
@@ -68,15 +161,66 @@ body {
 	border-radius: 12px
 }	
 
+#left-btn{
+	position:absolute;
+	background-image: URL("leather.png");
+	font-family: impact;
+	border: none;
+	color: #00b3b3;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin-top: -10%;
+	border-radius: 12px;
+	bottom: 10%;
+	left: 10%;
+	width: 30%;
+}	
+#right-btn{
+	position:absolute;
+	background-image: URL("leather.png");
+	font-family: impact;
+	border: none;
+	color: #00b3b3;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin-top: -10%;
+	border-radius: 12px;
+	bottom: 10%;
+	right: 10%;
+	width: 30%;
+}	
+
+/*Container for storyline*/
 #box{
 	height: 50%;
 	width: 50%;
-	background-color: #00b3b3;
+	background-image: URL("back.jpg");
+	background-size: 100%;
 	position: absolute;
 	border-radius: 12px;
 	padding:15px;
 	top: 25%;
-	left: 25%
+	left: 25%;
+	color: white;
+	font-family: impact ;
+	text-align: center;
+	text-shadow: none;
+	box-shadow: 3px 3px #00b3b3;
+	
+	
+}
+#text{
+	color: white;
+	font-family: impact ;
+	text-align: center;
+	position: center;
+	text-shadow: 2px 2px  black;
 }
 
 
